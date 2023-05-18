@@ -1,0 +1,10 @@
+version: '1'
+
+services:
+  flask-api:
+    build:
+      context: .
+      dockerfile: ./Docker/Dockerfile
+    ports:
+      - 18080:5000
+
